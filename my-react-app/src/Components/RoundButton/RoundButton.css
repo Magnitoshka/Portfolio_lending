@@ -1,0 +1,16 @@
+.round-btn{
+    cursor: pointer;
+    border:none;
+    height: 54px;
+    width: 54px;
+    background-color: #222222;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round-btn img{
+    background-color: #222222;
+    width: 26px;
+
+}
