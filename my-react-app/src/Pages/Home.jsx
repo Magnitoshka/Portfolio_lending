@@ -22,8 +22,6 @@ export default function Home() {
                 <div className="hero-img-container">
                     <img src="/hero-img.jpg" alt="hero-img"/>
                 </div>
-
-
             </div>
 
 
