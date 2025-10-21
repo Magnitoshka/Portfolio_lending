@@ -9,7 +9,7 @@ function LongButton(props) {
             {props.flag && (
                 <div className="link-element-container">
                     <div className="link-element">
-                        <img src="src/assets/icons/Vector.svg" alt="arrow"/>
+                        <img src="/icons/Vector.svg" alt="arrow"/>
                     </div>
                 </div>
             )}
