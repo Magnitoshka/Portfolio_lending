@@ -14,13 +14,13 @@ export default function Home() {
                         websites.</h3>
                     <div className="hero-nav">
                         <LongButton label = "CONTACT ME" flag ={true}/>
-                        <RoundButton imgpath = "/src/assets/icons/bxl-linkedin.svg"/>
-                        <RoundButton imgpath = "/src/assets/icons/bxl-github.svg"/>
+                        <RoundButton imgpath = "/icons/bxl-linkedin.svg"/>
+                        <RoundButton imgpath = "/icons/bxl-github.svg"/>
                     </div>
 
                 </div>
                 <div className="hero-img-container">
-                    <img src="../../public/hero-img.jpg" alt="hero-img"/>
+                    <img src="/hero-img.jpg" alt="hero-img"/>
                 </div>
 
 
