@@ -12,9 +12,9 @@ export default function UnderscoreButton(props) {
             >
                 {props.label}
                 {props.label === "SEE ON GITHUB" ? (
-                    <img className="GitImg" src="/public/icons/bxl-github.svg" alt="gitIMG" />
+                    <img className="GitImg" src="/icons/bxl-github.svg" alt="gitIMG" />
                 ) : (
-                    <img className="arrowImg" src="/public/icons/arrow_Green.svg" alt="arrow" />
+                    <img className="arrowImg" src="/icons/arrow_Green.svg" alt="arrow" />
                 )}
             </button>
 
