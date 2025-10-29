@@ -1,7 +1,7 @@
 import "./Header.css"
 import NavBtn from "../NavBtn/NavBtn"
 
-function Header(props) {
+function Header() {
     return (
 
         <header>

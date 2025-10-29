@@ -1,0 +1,41 @@
+.info-container {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: #C7C7C7 1px solid;
+    padding: 16px 0 16px 0;
+}
+
+hr {
+    border: 1px white solid;
+}
+
+
+.rowTitle {
+    font-family: Monrope, sans-serif;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.project-info {
+    font-family: Monrope, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 32px;
+}
+
+.rowInfo {
+    font-family: Monrope, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+.btnNav{
+    display: flex;
+    flex-direction: row;
+}

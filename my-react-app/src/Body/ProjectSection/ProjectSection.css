@@ -1,0 +1,38 @@
+
+.container {
+    display: flex;
+    width: 1224px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.project-card {
+    width: 600px;
+    height: 600px;
+    background-color: #1A1A1A;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* плавность */
+
+}
+
+.project-card:hover {
+    background-color: #3f3f3f;
+    transform: translateY(-20px);
+}
+
+.proj-img {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.btnNav {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,30 @@
+.body {
+
+}
+
+.body-header-container {
+    max-width: 600px;
+
+}
+
+.body-header {
+    margin-top: 80px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 76px;
+    font-weight: 100;
+}
+
+.body-underheader {
+    text-wrap: pretty;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.sections-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    margin-top: 80px;
+}
