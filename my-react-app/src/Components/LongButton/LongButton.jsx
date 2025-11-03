@@ -3,7 +3,7 @@ import "./LongButton.css"
 function LongButton(props) {
     return (
 
-        <button className="long-btn">
+        <button className="long-btn" type={props?.type}>
             <div className="label-btn-container">{props.label}</div>
 
             {props.flag && (

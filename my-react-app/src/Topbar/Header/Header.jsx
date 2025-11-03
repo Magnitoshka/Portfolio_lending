@@ -10,7 +10,6 @@ function Header() {
             </div>
 
             <div className="nav-container">
-                {/*buttons*/}
                 <NavBtn to="/" label="Home"></NavBtn>
                 <NavBtn to="/about" label="About"></NavBtn>
                 <NavBtn to="/contact" label="Contact"></NavBtn>

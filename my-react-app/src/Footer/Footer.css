@@ -1,0 +1,21 @@
+.footer {
+    border-top: #ffffff solid 2px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-nav-container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
