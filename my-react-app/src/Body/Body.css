@@ -27,3 +27,17 @@
     gap: 120px;
     margin-top: 80px;
 }
+
+@media (max-width: 1024px) {
+
+.body{
+    padding:0 16px;
+}
+    .body-header{
+        margin-top: 0;
+    }
+    .sections-container{
+        gap:64px;
+    }
+
+}

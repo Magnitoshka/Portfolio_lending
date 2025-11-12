@@ -35,3 +35,17 @@
     text-decoration: underline;
     text-decoration-color: #D3E97A;
 }
+@media (max-width: 1024px) {
+    .footer {
+        padding: 40px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-nav-container {
+        width: 100%;
+        height: auto;
+        margin-bottom: 64px;
+    }
+
+}

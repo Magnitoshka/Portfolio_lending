@@ -39,10 +39,13 @@ export default function ContactForm() {
                     <label className="body-medium">Message</label>
                     <textarea name="message" className="field field-large" required/>
                 </div>
+
+                <p className="result">{result}</p>
+
                 <div className="footer-submit-container">
                     <LongButton type="submit" label="SUBMIT"/>
                 </div>
-                <p>{result}</p>
+
             </form>
         </section>
     )

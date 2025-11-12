@@ -1,5 +1,4 @@
 
-
 .hero-img-container {
     width: 600px;
     object-fit: cover;
@@ -36,7 +35,6 @@ img {
     color: #C7C7C7;
     font-family: "Manrope", sans-serif;
     font-weight: 400;
-
 }
 
 .hero-container {
@@ -45,10 +43,36 @@ img {
     margin-top: 30px;
     margin-bottom: 80px;
 }
-.hero-nav{
+
+.hero-nav {
     display: flex;
     justify-content: left;
     align-items: center;
-    gap:16px;
+    gap: 16px;
     margin-top: 40px;
+}
+
+@media (max-width: 1024px) {
+
+    .info{
+        margin: 16px;
+    }
+    .info h1 {
+        font-size: 57px;
+    }
+
+    .info h3 {
+        font-size: 16px;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-img-container {
+        margin-top: 64px;
+        width: 400px;
+        margin-bottom: 16px;
+    }
 }

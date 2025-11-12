@@ -27,3 +27,16 @@
 .footer-submit-container{
     margin-top: 50px;
 }
+.result{
+    margin-top: 24px;
+    font-family:  "Manrope", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+@media (max-width: 1024px) {
+    .ContactForm {
+        width: auto;
+    }
+
+
+}

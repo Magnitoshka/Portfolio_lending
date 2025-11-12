@@ -39,3 +39,11 @@ hr {
     display: flex;
     flex-direction: row;
 }
+@media(max-width: 1024px){
+
+    .info-container {
+        width: 80vw;
+    }
+
+
+}

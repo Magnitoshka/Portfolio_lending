@@ -36,3 +36,22 @@
     display: flex;
     gap: 20px;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        margin-top: 64px;
+        width: 100vw;
+        height: auto;
+    }
+
+    .project-card {
+        width: 80vw;
+        padding: 16px;
+        height: auto;
+    }
+
+    .proj-img {
+
+    }
+}
